@@ -6,7 +6,7 @@ use super::*;
 
 #[test]
 fn grading() {
-    let answers = main();
+    let answers = midpoint();
     assert_eq!(print_type_of(&answers.0), "(f64, f64)".to_string());
     assert_eq!(print_type_of(&answers.1), "(f64, f64)".to_string());
     assert_eq!(print_type_of(&answers.2), "(f64, f64)".to_string());
